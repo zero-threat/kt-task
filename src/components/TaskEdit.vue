@@ -32,5 +32,19 @@
 </script>
 
 <style lang="scss" scoped>
+@media screen and (max-width: 700px) {
+    input {
+        font-size: 16px;
+    }
+    
+    .def-form {
+        width: 60%;
+    }
+}
 
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    input {
+        font-size: 14px;
+    }
+}
 </style>
